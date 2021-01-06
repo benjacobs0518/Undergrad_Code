@@ -1,0 +1,33 @@
+What is the bash command to show your terminal's working directory (current location)?
+pwd
+How would you create an empty file called empty.txt from the command line?
+cat empty.txt
+Using the ls command, how would you list all files beginning with empty in your current directory?
+ls empty*
+Using the ls command, the wc command, and the |, how would you count the number of files ending in .txt in your current directory?
+ls *.txt /home/desktop/intense_prog/homework | wc -l
+Using the echo command and > or >>, what is the command to write your name to empty.txt?
+echo "I am Ben Jacobs" > empty.txt
+What is the bash command to rename that file to notempty.txt?
+mv empty.txt notempty.txt
+What is the bash command to create a directory named pe3_bash?
+mkdir pe3_bash
+What is the command to move your terminal's working directory to pe3_bash?
+cd pe#_bash
+From the pe3_bash directory, how would you create a new directory, pe3_bash_number2 that has the same parent directory as pe3_bash?
+What is the command to move from pe3_bash to pe3_bash_number2 (use only one command)?
+What does pressing the up arrow key do? goes to a previously entered command
+What does pressing the down arrow key do? goes to empty/new line for entry in the terminal
+What does pressing ctrl+r do? gives a search option to the commands
+What are two different command-line based text editors
+(text editors that run from the command line and do not open a separate application)?
+(Answer the following questions for each editor that you have chosen.)
+vim and nano
+What command do you use to open a file with this editor?
+vim filename.txt
+What command do you use to save a file while using this editor?
+escape :w enter
+What command do you use to exit this editor?
+escape :q enter
+What are two reasons you might want to use the text editors listed above?
+To avoid using unnecessary text editors 

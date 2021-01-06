@@ -1,0 +1,47 @@
+QMainWindow
+{
+    background: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0
+    rgba(77, 137, 87, 255), stop:1 rgba(255, 255, 255, 255));
+}
+
+QPushButton
+{
+    padding: 8px 12px;
+    border: 1px solid rgba(120, 120, 120, .7);
+    border-radius: 12px;
+    font-family: "Century Gothic";
+    font-size: 24px;
+}
+
+QPushButton:hover
+{
+    background: rgba(200, 200, 200, 0.5);
+}
+
+QPushButton:pressed
+{
+    background: rgba(200, 200, 200, 0.8);
+}
+
+QLineEdit
+{
+    background: rgba(255, 255, 255, 0.4);
+    font-size: 36px;
+    font-family: "Century Gothic";
+    border-radius: 12px;
+    border: 1px solid rgba(120, 120, 120, .4);
+}
+
+QLabel#gameLabel
+{
+    font-size: 100px;
+    font-family: "Century Gothic";
+    color: green;
+}
+
+QLabel#warningLabel
+{
+    font-size: 24px;
+    font-family: "Century Gothic";
+    color: red;
+}

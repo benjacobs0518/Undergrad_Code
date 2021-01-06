@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/Styling">
+        <file>resources/stylesheet.css</file>
+    </qresource>
+</RCC>
